@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+    display: flex; 
+    font-family: 'Michroma', sans-serif;
+    justify-content: space-between;
+    padding: 1.875rem;
+    background: #222;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 7px,
+      rgba(0, 0, 0, 0.8) 9px,
+      rgba(0, 0, 0, 0.8) 13px,
+      transparent 13px
+    );  
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.header-white{
+  z-index: 3;
+  background-color: #fff;
+  background-image: none;
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+    display: flex; 
+    font-family: 'Michroma', sans-serif;
+    justify-content: space-between;
+    padding: 1.875rem;   
+    transition:all 0.5s ease-in-out; 
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    color: #32e9f0;
+  }
+.brand a:hover{
+  cursor: pointer;
+}
+
+.brand a{
+  text-decoration: none;
+  color: unset;
+
+}
+
+.brand a:visited{
+  color: unset;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.nav ul li {
+    list-style: none;
+    margin-left: 2.5rem;
+    
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+.nav ul li a:hover {
+  cursor: pointer;
+  color: #458bc4;
+  font-weight: 800;
+
+}
+ul.change-color li a{
+  color: #000;
+}
+
+.nav ul.change-color li a:hover {
+  cursor: pointer;
+  color: #0cccd3;
+  font-weight: 800;
+}
+
+#hamburguesa {
+    display: none;
+  }
+  
+  nav#mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 44px;
+    overflow: hidden;
+  }
+  
+  nav#mobile-menu label span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+  }
+  
+  #mobile-menu span:first-child {
+    margin-bottom: 3px;
+  }
+  
+  #mobile-menu span:nth-child(2) {
+    margin-bottom: 3px;
+  }
+  
+  .nav-menu-movil {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+    width: 0%;
+    height: 224px;
+    padding-top: 16px;
+    background-color: #0000EC;
+    list-style: none;
+    transition: width 0.5s ease;
+    overflow: hidden;
+  }
+  .nav-menu-movil li {
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+  
+  .nav-menu-movil li a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-decoration: none;
+  }
+  
+  nav#mobile-menu span {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  nav#mobile-menu span:first-child {
+    transform-origin: 10% 0%;
+  }
+  
+  nav#mobile-menu span:last-child {
+    transform-origin: 10% 100%;
+  }
+  
+  #hamburguesa:checked+label span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #hamburguesa:checked+label span:first-child {
+    transform: rotate(45deg);
+  }
+  
+  #hamburguesa:checked+label span:last-child {
+    transform: rotate(-45deg);
+  }
+  
+  #hamburguesa:checked~.nav-menu-movil {
+    width: 100%;
+  }
+  
+  .nav-menu-movil li a:active {
+    font-size: 16px;
+    color: rgba(6, 10, 36, 0.56);
+    letter-spacing: 0;
+    line-height: 28px;
+    text-decoration: line-through;
+  }
+
+    
+  

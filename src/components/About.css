@@ -1,0 +1,29 @@
+.about{
+    padding: 6rem 3.125rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1{
+    text-align: center;
+    grid-column: span 1;
+}
+
+.description{
+     display: flex;
+     justify-content: center;
+     color: #000;
+     margin-top: 3rem;
+}
+
+.description img{
+    width: 25rem;
+    height: fit-content;
+    margin-left: 4rem;
+    border-radius: 10%;
+}
+
+.description p {
+    font-size: 1.5rem;
+    width: 40vw;
+}
