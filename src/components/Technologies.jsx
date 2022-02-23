@@ -5,7 +5,7 @@ function Technologies() {
   
 
   return (
-    <div className="technologies">
+    <div className="technologies" id="tecnologias">
       <h1>Tecnologías</h1>
       <div className="container">
       {logos.map((logo) => {

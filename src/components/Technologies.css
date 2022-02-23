@@ -33,3 +33,7 @@
     height:auto;
     margin-bottom: 0.3125rem;
 }
+
+.logos-container:hover{
+    background-color: cornflowerblue;
+}
