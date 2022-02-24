@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6.25rem;
+    padding: 6rem 2rem;
 }
 
 .projects-container{
@@ -17,28 +17,39 @@
     position: relative;
     display: flex;
     justify-content: center;
-    margin: 4rem;
-    border: 2px solid salmon;
+    margin: 1rem;    
     color: transparent;
-    height: 400px;
+    height: 25rem;
 
 
 }
 
 .project img{
-    width: 600px;    
+    width: 600px;
     object-fit: contain;
-    z-index: 1;
+    z-index: 2;
       
 }
 
 .hover-project {
+    
     color: transparent;
     position: absolute; 
     left: 0;   
-    padding: 3rem;
+    padding: 2rem;
     height: 100%;
-    z-index: 2;
+    z-index: 1;
+}
+
+
+.hover-project img{
+    opacity: 0%;
+}
+
+.hover-project button{
+    background-color: transparent;
+    color: transparent;
+    border: none;
 }
 
 .hover-project .links{
@@ -53,14 +64,75 @@
     text-decoration: none;
 }
 
-.links a:hover{
+button:hover{
     color: aqua;
     
+}
+
+.project img:hover {
+    z-index: 0;
 }
 
 .hover-project:hover{
     color: aliceblue;
     background-color: #000 ;
     opacity: 80%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.hover-project:hover button{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.hover-project:hover button:hover{
+    background-color: aquamarine;
+}
+
+.hover-project:hover img{
+    opacity: 100%;
+}
+
+.hover-project .seccion-contact__box-icon{
+    width: 25px;
+}
+
+
+.git-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+@media  screen and (max-width:1330px) {
+
+    .projects {
+        padding:4rem 0
+    }
+}
+
+
+@media  screen and (max-width:648px) {
+
+    .project img{
+        width: 400px;
+    }
+
+    
+}
+
+
+@media  screen and (max-width:430px) {
+
+    .project img{
+        width: 300px;
+    }
+
     
 }

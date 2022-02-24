@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+nav#mobile-menu{
+  display: none;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -21,7 +25,8 @@
     transition: all 0.5s ease;
 }
 .header-white{
-  z-index: 3;
+  z-index: 10;
+  border: 1px solid rgba(0, 0, 0, 0.219);
   background-color: #fff;
   background-image: none;
   color: #000;
@@ -94,7 +99,14 @@ ul.change-color li a{
   font-weight: 800;
 }
 
-#hamburguesa {
+
+
+@media screen and (max-width: 980px) {
+  nav#menuEscritorio{
+    display: none;
+  }
+
+  #hamburguesa {
     display: none;
   }
   
@@ -102,17 +114,22 @@ ul.change-color li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 16px;
-    margin-right: 16px;
-    height: 44px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2.75rem;
     overflow: hidden;
   }
-  
-  nav#mobile-menu label span {
+  nav#mobile-menu label span{
     display: block;
     width: 20px;
     height: 2px;
     background-color: #000;
+  }
+  nav#mobile-menu label span.change-color {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
   }
   
   #mobile-menu span:first-child {
@@ -125,33 +142,35 @@ ul.change-color li a{
   
   .nav-menu-movil {
     position: absolute;
-    top: 44px;
+    top: 5rem;
     right: 0px;
     width: 0%;
-    height: 224px;
-    padding-top: 16px;
-    background-color: #0000EC;
+    height: 14rem;
+    padding-top: 1rem;
+    background-color: #222;
     list-style: none;
     transition: width 0.5s ease;
     overflow: hidden;
   }
   .nav-menu-movil li {
-    margin-bottom: 24px;
-    margin-left: 16px;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
   }
   
   .nav-menu-movil li a {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 16px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 1rem;
     color: #FFFFFF;
     letter-spacing: 0;
-    line-height: 28px;
+    line-height: 1.75rem;
     text-decoration: none;
   }
   
   nav#mobile-menu span {
     transition: transform 0.5s ease, opacity 0.5s ease;
   }
+  nav#mobile-menu label:hover {
+cursor: pointer;  }
   
   nav#mobile-menu span:first-child {
     transform-origin: 10% 0%;
@@ -178,12 +197,18 @@ ul.change-color li a{
   }
   
   .nav-menu-movil li a:active {
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(6, 10, 36, 0.56);
     letter-spacing: 0;
-    line-height: 28px;
+    line-height: 1.75rem;
     text-decoration: line-through;
   }
+
+  .nav-menu-movil li a:hover {
+    color:#0cccd3 ;
+    cursor: pointer;
+  }
+}
 
     
   

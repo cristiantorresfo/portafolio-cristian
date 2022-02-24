@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.container {
+.technologies .container {
     display: flex;
     flex-wrap: wrap;
     max-width: 50rem;
@@ -36,4 +36,13 @@
 
 .logos-container:hover{
     background-color: cornflowerblue;
+}
+
+
+@media  screen and (max-width: 580px) {
+    
+    .technologies{
+        padding: 6rem 0;
+    }
+    
 }

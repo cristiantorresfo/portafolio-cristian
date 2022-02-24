@@ -2,19 +2,18 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about" id="about">
+    <section className="about" id="about">
       <h1>Sobre mí</h1>
       <div className="description">
         <p>
-          Hola! Mi nombre es Cristian Torres, soy un Ingeniero Industrial que
-          decidió apostarle al sector de la tecnología y por esa razón, estudié
-          Desarrollo Web Frontend en Acámica (Digital House).
+          Hola! Mi nombre es Cristian Torres, soy Desarrollador Web Frontend y además soy Ingeniero Industrial de profesión.
+          Decidí apostarle a la industria tech ya que la encuentro como la principal aliada para que las empresas sean cada vez más competitivas en el mercado y se vean beneficiadas con la transformación digital.
           <br />
           <br />
           Desde que inicié mi formación como Desarrollador Web Frontend, he
           encontrado un gusto enorme por la programación, especialmente la
           posibilidad de ver reflejada en mis líneas de código, una interfaz
-          de usuario que sea funcional y agradable a la vista.
+          de usuario que ofrezca una buena experiencia.
           <br />
           <br />
           He logrado poner a prueba mis conocimientos por medio de la realización de proyectos académicos que incluyen funcionalidades similares a las que pueden encontrarse en proyectos reales de esta industria. La 
@@ -27,7 +26,7 @@ function About() {
 
         <img src="./imagencristian.jpg " alt="imag-log" />
       </div>
-    </div>
+    </section>
   );
 }
 

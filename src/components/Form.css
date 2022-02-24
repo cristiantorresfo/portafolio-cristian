@@ -1,0 +1,125 @@
+.form{
+    background-color:#222 ;
+    color: #fff;
+    padding:6rem 3rem
+}
+.seccion-contact {
+    background: #111;
+ }
+ 
+ .seccion-contact__heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3.125rem;
+    color: #fff;
+ }
+ 
+ .seccion-contact__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+ }
+ @media (max-width: 800px) {
+    .seccion-contact__content {
+       flex-direction: column;
+    }
+ }
+ 
+ .seccion-contact__info {
+    min-width: 40%;
+ }
+ @media (max-width: 992px) {
+    .seccion-contact__info {
+       margin: 1.25rem 0;
+    }
+ }
+ 
+ .seccion-contact__info-h3 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.625rem;
+ }
+ 
+ .seccion-contact__info-box {
+    position: relative;
+ }
+ 
+ .seccion-contact__box {
+    position: relative;
+    padding: 1.25rem 0;
+    display: flex;
+    align-items: flex-start;
+ }
+ 
+ .seccion-contact__box-icon {
+    padding-top: 0.25rem;
+    height: 1.5625rem;
+    filter: invert(1);
+ }
+ 
+ .seccion-contact__box-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+ }
+ 
+ .seccion-contact__box-text-h3 {
+    /* margin-bottom: 5px; */
+    font-weight: 500;
+    color: #2196f3;
+ }
+ 
+ 
+ .seccion-contact__box-text-a {
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ .seccion-contact__cont-form {
+    min-width: 60%;
+ }
+ 
+ .seccion-contact__form {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .seccion-contact__form-h3 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.625rem;
+ }
+ 
+ .seccion-contact__form-input,
+ .seccion-contact__form-textarea {
+    margin-bottom: 1.25rem;
+    padding: 0.9375rem;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+ }
+ 
+ .seccion-contact__form-textarea {
+    min-height: 12.5rem;
+ }
+ 
+ .seccion-contact__form-input::placeholder,
+ .seccion-contact__form-textarea::placeholder {
+    color: #999;
+ }
+ 
+ .seccion-contact__form-input[type="submit"] {
+    max-width: 6.25rem;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+ }

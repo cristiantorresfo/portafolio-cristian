@@ -5,7 +5,7 @@ function Technologies() {
   
 
   return (
-    <div className="technologies" id="tecnologias">
+    <section className="technologies" id="tecnologias">
       <h1>Tecnologías</h1>
       <div className="container">
       {logos.map((logo) => {
@@ -18,7 +18,7 @@ function Technologies() {
       })}
       </div>
       
-    </div>
+    </section>
   );
 }
 

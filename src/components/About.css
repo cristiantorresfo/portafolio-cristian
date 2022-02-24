@@ -6,7 +6,7 @@
 
 .about h1{
     text-align: center;
-    grid-column: span 1;
+    
 }
 
 .description{
@@ -25,5 +25,16 @@
 
 .description p {
     font-size: 1.5rem;
-    width: 40vw;
+    width: 60vw;
+}
+
+@media  screen and (max-width:1200px) {
+    .description {
+        flex-direction: column;
+        width: 100%;
+align-items: center;    }
+
+    .description p{
+        width: 100%;
+    }
 }

@@ -4,6 +4,35 @@
   margin: 0;
   padding: 0;
 }
+.App{
+overflow-x: hidden;
+width: 100%;}
+
+.App h1{
+  font-size: 2rem;
+}
 
 body {
-  font-family: 'Poppins', sans-serif;}
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(180, 176, 176);
+  color: #000;
+ 
+}
+
+@media screen and (max-width:980px) {
+    html {
+      font-size: 14px
+    }
+}
+
+@media screen and (max-width:740px) {
+  html {
+    font-size: 12px
+  }
+}
+
+@media screen and (max-width:690px) {
+  html {
+    font-size: 10px
+  }
+}
