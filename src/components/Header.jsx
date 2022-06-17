@@ -5,7 +5,7 @@ function Header() {
     let header = document.getElementById("header");
     let nav = document.getElementById("nav-ul");
     let span = document.getElementsByTagName("span")
-    console.log(span);
+    
     if (window.scrollY > 100) {
       header.classList.add("header-white");
       header.classList.remove("header");

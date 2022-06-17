@@ -157,6 +157,11 @@ ul.change-color li a{
     margin-left: 1rem;
   }
   
+  .nav-menu-movil li:hover{
+    background-color:#535757 ;
+    cursor: pointer;
+  }
+
   .nav-menu-movil li a {
     font-family: 'Michroma', sans-serif;
     font-size: 1rem;

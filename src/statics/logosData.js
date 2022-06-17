@@ -4,12 +4,16 @@ export const logos = [
       url: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
     },
     {
+      name: "Angular",
+      url:"angular-icon-logo.png",
+    },
+    {
       name: "Javascript",
       url: "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
     },
     {
       name: "HTML",
-      url: "https://image.flaticon.com/icons/png/512/732/732212.png",
+      url: "logoHtml.svg",
     },
     {
       name: "CSS",
@@ -35,4 +39,8 @@ export const logos = [
       name: "Figma",
       url: "https://cdn.worldvectorlogo.com/logos/figma-1.svg",
     },
+    {
+      name: "MySQL",
+      url: "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-and-moodle-elearningworld-5.png"
+    }
   ];
