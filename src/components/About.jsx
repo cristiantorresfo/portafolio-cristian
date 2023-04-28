@@ -16,9 +16,8 @@ function About() {
           de usuario que ofrezca una buena experiencia.
           <br />
           <br />
-          He logrado poner a prueba mis conocimientos por medio de la realización de proyectos académicos que incluyen funcionalidades similares a las que pueden encontrarse en proyectos reales de esta industria. La 
-          mayoría de ellos los he desarrollado haciendo uso de JavaScript y React como librería.
-
+          He trabajado como desarrollador Frontend desde el año 2021, lo cual me ha permitido fortalecer mis 
+          conocimientos y mejorar mis habilidades lógicas y de programación.
           <br />
           <br />
           Si deseas conocer más sobre mi trabajo te invito a seguir explorando las siguientes secciones.

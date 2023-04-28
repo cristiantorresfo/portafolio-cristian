@@ -4,8 +4,12 @@ export const logos = [
       url: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
     },
     {
-      name: "Angular",
-      url:"angular-icon-logo.png",
+        name: "NextJS",
+        url: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    },
+    {
+        name: "React Native",
+        url: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
     },
     {
       name: "Javascript",
