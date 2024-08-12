@@ -12,6 +12,14 @@ export const logos = [
         url: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
     },
     {
+      name: "AWS",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgEIwH6UFq6sXOaGsOMQEdp-PGZza7rkGTnY6S7AkfIpmJQSVUk86z3Aapl6ZRuAmU3g&usqp=CAU",
+    },
+    {
+      name: "TypeScript",
+      url: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    },
+    {
       name: "Javascript",
       url: "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
     },
@@ -35,13 +43,10 @@ export const logos = [
       name: "GitHub",
       url: "https://cdn.iconscout.com/icon/free/png-256/github-159-721954.png",
     },
-    {
-      name: "TypeScript",
-      url: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-    },
+  
     {
       name: "Figma",
-      url: "https://cdn.worldvectorlogo.com/logos/figma-1.svg",
+      url: "https://s3-alpha.figma.com/hub/file/1166690750/85f69649-5387-44c2-ba45-81ae13812e36-cover.png",
     },
     {
       name: "MySQL",
